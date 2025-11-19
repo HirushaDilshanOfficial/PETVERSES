@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+
+# Build folders
+build/
+dist/
+
+# OS files
+.DS_Store
+
+# Large media files
+videos/
+uploads/
