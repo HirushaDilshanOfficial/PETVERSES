@@ -19,3 +19,6 @@ dist/
 # Large media files
 videos/
 uploads/
+
+
+frontend/src/assets/images/PVM.mp4
