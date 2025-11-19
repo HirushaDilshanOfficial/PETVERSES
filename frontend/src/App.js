@@ -1,7 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import ProductPage from "./Pages/ProductPage.jsx";
-
+import ProductPage from "./pages/productPage.jsx";
 
 import CartPage from "./Pages/CartPage.jsx";
 import { CartProvider } from "./contexts/CartContext";
