@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:5003/api"; // Changed from 5002 to 5003
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:5009/api"; // Changed from 5008 to 5009
 
 const api = axios.create({
   baseURL: API_BASE_URL,

@@ -12,7 +12,7 @@ const ProductDetailedPage = () => {
   const [quantity, setQuantity] = useState(1);
 
   const { addToCart } = useContext(CartContext);
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5003/api";
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5009/api";
 
   // Fetch product and always show latest stock
   useEffect(() => {

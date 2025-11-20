@@ -49,7 +49,7 @@ import "./Config/firebase.js";
 import "./Config/cloudinary.js";
 
 const app = express();
-const PORT = process.env.PORT || 5008; // Changed from 5007 to 5008
+const PORT = process.env.PORT || 5009; // Changed from 5008 to 5009
 
 // Connect to MongoDB
 connectDB();
@@ -62,6 +62,7 @@ app.use(
       "http://localhost:3001",
       "http://localhost:3003",
       "http://localhost:3008",
+      "http://localhost:3009",
       "http://localhost:5173",
     ],
     credentials: true,
