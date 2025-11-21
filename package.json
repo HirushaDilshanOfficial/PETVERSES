@@ -3,17 +3,21 @@
   "version": "1.0.0",
   "description": "PETVERSE - Your one-stop destination for all things pet care",
   "type": "module",
+  "main": "backend/src/server.js",
   "scripts": {
+    "start": "node backend/src/server.js",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
     "backend": "cd backend && npm start",
     "frontend": "cd frontend && npm run dev",
-    "test-db": "node testMongoConnection.js",
+    "test-db": "node backend/testMongoConnection.js",
     "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
   },
   "dependencies": {
     "axios": "^1.12.2",
     "concurrently": "^8.2.0",
     "dotenv": "^16.4.5",
-    "mongoose": "^8.18.2"
+    "mongoose": "^8.18.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
   }
 }
