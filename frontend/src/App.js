@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import ProductPage from "./pages/ProductPage.jsx";
 import ProductDetailedPage from "./pages/ProductDetailedPage.jsx";
 import CartPage from "./pages/CartPage.jsx";
-import { CartProvider } from "./contexts/CartContext";
+import { CartProvider } from "./contexts/CartContext.jsx";
 import CheckoutPage from "./pages/CheckoutPage.jsx";
-import OtpVerificationPage from "./pages/OtpVerificationPage.jsx";
+import OtpVerificationPage from "./pages/OtpverificationPage.jsx";
 import BankTransferPage from "./pages/BankTransferPage.jsx";
 import PaymentSuccess from "./components/PaymentSuccess.jsx";
 import PaymentPage from "./components/PaymentPage.jsx";
@@ -20,16 +20,16 @@ import GamePage from "./pages/GamePage.jsx";
 // Import Home component
 import Home from "./pages/Home.jsx";
 // Import auth components
-import Login from "./Pages/auth/Login.js";
-import AdminLogin from "./Pages/auth/AdminLogin.js";
-import RoleSelection from "./Pages/auth/RoleSelection.js";
-import PetOwnerSignup from "./Pages/auth/PetOwnerSignup.js";
-import ServiceProviderSignup from "./Pages/auth/ServiceProviderSignup.js";
-import ForgotPassword from "./Pages/auth/ForgotPassword.js";
+import Login from "./pages/auth/Login.js";
+import AdminLogin from "./pages/auth/AdminLogin.js";
+import RoleSelection from "./pages/auth/RoleSelection.js";
+import PetOwnerSignup from "./pages/auth/PetOwnerSignup.js";
+import ServiceProviderSignup from "./pages/auth/ServiceProviderSignup.js";
+import ForgotPassword from "./pages/auth/ForgotPassword.js";
 // Import additional components
-import ServiceDetailPage from "./pages/ServiceDetailPage";
+import ServiceDetailPage from "./pages/ServiceDetailPage.jsx";
 import ServicesPage from "./pages/ServicesPage.jsx";
-import Contactus from "./pages/Contactus";
+import Contactus from "./pages/Contactus.jsx";
 // Import dashboard components
 import PetOwnerProfile from "./pages/dashboards/PetOwnerProfile.jsx";
 import ServiceProviderDashboard from "./pages/dashboards/ServiceProviderDashboard.js";
@@ -46,7 +46,7 @@ import PaymentsPage from "./pages/admin/PaymentsPage.jsx";
 import SearchResultsPage from "./pages/admin/SearchResultsPage.jsx";
 import AnalysisPage from "./pages/admin/AnalysisPage.jsx";
 import ProfilePage from "./pages/admin/ProfilePage.jsx";
-//import GeographicAnalysisPage from "./Pages/admin/GeographicAnalysisPage.jsx";
+//import GeographicAnalysisPage from "./pages/admin/GeographicAnalysisPage.jsx";
 // Import DashboardRedirect component
 import DashboardRedirect from "./components/common/DashboardRedirect.jsx";
 // Import Protected Routes
@@ -54,17 +54,17 @@ import ProtectedRoute, {
   AdminRoute,
   ServiceProviderRoute,
   PetOwnerRoute,
-} from "./components/common/ProtectedRoute";
+} from "./components/common/ProtectedRoute.js";
 // Service-related components from App.jsx
-import ServicePage from "./pages/ServicePage";
-import CreatePage from "./pages/CreateService";
-import SelectServiceCategory from "./pages/SelectServiceCategory";
-import ServicePdashboard from "./pages/ServicePdashboard";
-import MyServices from "./pages/MyServices";
-import EditService from "./pages/EditService";
+import ServicePage from "./pages/ServicePage.jsx";
+import CreatePage from "./pages/CreateService.jsx";
+import SelectServiceCategory from "./pages/SelectServiceCategory.jsx";
+import ServicePdashboard from "./pages/ServicePdashboard.jsx";
+import MyServices from "./pages/MyServices.jsx";
+import EditService from "./pages/EditService.jsx";
 import ServiceReviewPage, {
   ProductReviewPage,
-} from "./Pages/ServiceReviewPage";
+} from "./pages/ServiceReviewPage.jsx";
 // Import provider profile component
 import ServiceProviderProfile from "./pages/provideProfile.jsx";
 import ServiceProviderAppointments from "./pages/ServiceProviderAppointments.jsx";
