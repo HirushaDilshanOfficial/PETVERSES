@@ -1,24 +1,24 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import ProductPage from "./Pages/ProductPage.jsx";
-import ProductDetailedPage from "./Pages/ProductDetailedPage.jsx";
-import CartPage from "./Pages/CartPage.jsx";
+import ProductPage from "./pages/ProductPage.jsx";
+import ProductDetailedPage from "./pages/ProductDetailedPage.jsx";
+import CartPage from "./pages/CartPage.jsx";
 import { CartProvider } from "./contexts/CartContext";
-import CheckoutPage from "./Pages/CheckoutPage.jsx";
-import OtpVerificationPage from "./Pages/OtpVerificationPage.jsx";
-import BankTransferPage from "./Pages/BankTransferPage.jsx";
+import CheckoutPage from "./pages/CheckoutPage.jsx";
+import OtpVerificationPage from "./pages/OtpVerificationPage.jsx";
+import BankTransferPage from "./pages/BankTransferPage.jsx";
 import PaymentSuccess from "./components/PaymentSuccess.jsx";
 import PaymentPage from "./components/PaymentPage.jsx";
 import AdPaymentPage from "./components/AdPaymentPage.jsx"; // Add AdPaymentPage import
-import FaqPage from "./Pages/FaqPage.jsx";
-import FaqAdmin from "./Pages/FaqAdmin.jsx";
-import PolicyPage from "./Pages/PolicyPage.jsx"; // Add PolicyPage import
-import TermsAndConditionsPage from "./Pages/TermsAndConditions.jsx"; // Add TermsAndConditions import
-import Aboutus from "./Pages/Aboutus.jsx"; // Add Aboutus import
-import GamePage from "./Pages/GamePage.jsx";
+import FaqPage from "./pages/FaqPage.jsx";
+import FaqAdmin from "./pages/FaqAdmin.jsx";
+import PolicyPage from "./pages/PolicyPage.jsx"; // Add PolicyPage import
+import TermsAndConditionsPage from "./pages/TermsAndConditions.jsx"; // Add TermsAndConditions import
+import Aboutus from "./pages/Aboutus.jsx"; // Add Aboutus import
+import GamePage from "./pages/GamePage.jsx";
 
 // Import Home component
-import Home from "./Pages/Home.jsx";
+import Home from "./pages/Home.jsx";
 // Import auth components
 import Login from "./Pages/auth/Login.js";
 import AdminLogin from "./Pages/auth/AdminLogin.js";
@@ -27,25 +27,25 @@ import PetOwnerSignup from "./Pages/auth/PetOwnerSignup.js";
 import ServiceProviderSignup from "./Pages/auth/ServiceProviderSignup.js";
 import ForgotPassword from "./Pages/auth/ForgotPassword.js";
 // Import additional components
-import ServiceDetailPage from "./Pages/ServiceDetailPage";
-import ServicesPage from "./Pages/ServicesPage.jsx";
-import Contactus from "./Pages/Contactus";
+import ServiceDetailPage from "./pages/ServiceDetailPage";
+import ServicesPage from "./pages/ServicesPage.jsx";
+import Contactus from "./pages/Contactus";
 // Import dashboard components
-import PetOwnerProfile from "./Pages/dashboards/PetOwnerProfile.jsx";
-import ServiceProviderDashboard from "./Pages/dashboards/ServiceProviderDashboard.js";
-import ServiceProviderAdvertisements from "./Pages/dashboards/ServiceProviderAdvertisements.jsx";
-import AdminDashboard from "./Pages/admin/AdminDashboard.jsx";
+import PetOwnerProfile from "./pages/dashboards/PetOwnerProfile.jsx";
+import ServiceProviderDashboard from "./pages/dashboards/ServiceProviderDashboard.js";
+import ServiceProviderAdvertisements from "./pages/dashboards/ServiceProviderAdvertisements.jsx";
+import AdminDashboard from "./pages/admin/AdminDashboard.jsx";
 import AdAdmin from "./components/AdAdmin.jsx"; // Import AdAdmin component
 import AnnouncementManagement from "./components/admin/AnnouncementManagement.jsx"; // Add this import
 import AdminLayout from "./layouts/AdminLayout.jsx";
 // Import Admin sub-pages
-import UserManagementPage from "./Pages/admin/UserManagementPage.jsx";
-import KYCReviewPage from "./Pages/admin/KYCReviewPage.jsx";
-import InventoryPage from "./Pages/admin/InventoryPage.jsx";
-import PaymentsPage from "./Pages/admin/PaymentsPage.jsx";
-import SearchResultsPage from "./Pages/admin/SearchResultsPage.jsx";
-import AnalysisPage from "./Pages/admin/AnalysisPage.jsx";
-import ProfilePage from "./Pages/admin/ProfilePage.jsx";
+import UserManagementPage from "./pages/admin/UserManagementPage.jsx";
+import KYCReviewPage from "./pages/admin/KYCReviewPage.jsx";
+import InventoryPage from "./pages/admin/InventoryPage.jsx";
+import PaymentsPage from "./pages/admin/PaymentsPage.jsx";
+import SearchResultsPage from "./pages/admin/SearchResultsPage.jsx";
+import AnalysisPage from "./pages/admin/AnalysisPage.jsx";
+import ProfilePage from "./pages/admin/ProfilePage.jsx";
 //import GeographicAnalysisPage from "./Pages/admin/GeographicAnalysisPage.jsx";
 // Import DashboardRedirect component
 import DashboardRedirect from "./components/common/DashboardRedirect.jsx";
@@ -56,19 +56,19 @@ import ProtectedRoute, {
   PetOwnerRoute,
 } from "./components/common/ProtectedRoute";
 // Service-related components from App.jsx
-import ServicePage from "./Pages/ServicePage";
-import CreatePage from "./Pages/CreateService";
-import SelectServiceCategory from "./Pages/SelectServiceCategory";
-import ServicePdashboard from "./Pages/ServicePdashboard";
-import MyServices from "./Pages/MyServices";
-import EditService from "./Pages/EditService";
+import ServicePage from "./pages/ServicePage";
+import CreatePage from "./pages/CreateService";
+import SelectServiceCategory from "./pages/SelectServiceCategory";
+import ServicePdashboard from "./pages/ServicePdashboard";
+import MyServices from "./pages/MyServices";
+import EditService from "./pages/EditService";
 import ServiceReviewPage, {
   ProductReviewPage,
 } from "./Pages/ServiceReviewPage";
 // Import provider profile component
-import ServiceProviderProfile from "./Pages/provideProfile.jsx";
-import ServiceProviderAppointments from "./Pages/ServiceProviderAppointments.jsx";
-import GrPackages from "./Pages/grpackages.jsx"; // Added import for GrPackages
+import ServiceProviderProfile from "./pages/provideProfile.jsx";
+import ServiceProviderAppointments from "./pages/ServiceProviderAppointments.jsx";
+import GrPackages from "./pages/grpackages.jsx"; // Added import for GrPackages
 
 function App() {
   return (
